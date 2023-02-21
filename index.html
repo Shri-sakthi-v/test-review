@@ -1,12 +1,63 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <h1>hello microverse</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <h1 id="title">survey</h1>
+    <p id="description">this is a survey form</p>
+    <form id="survey-form">
+      <div>
+        <label id="name-label" for="name">Name</label>
+        <input type="text" id="name" placeholder="enter name" />
+      </div>
+      <div>
+        <label id="email-label" for="email">Email</label>
+        <input type="email" id="email" placeholder="enter email" />
+      </div>
+      <div>
+        <label id="number-label" for="number">Number</label>
+        <input
+          type="number"
+          min="100"
+          max="1000"
+          id="number"
+          placeholder="enter number"
+        />
+      </div>
+      <div>
+        <select id="dropdown">
+          <option value="">male</option>
+          <option value="">female</option>
+        </select>
+      </div>
+
+      <div class="radio">
+        <label><input type="radio" name=""/>interested</label>
+        <label><input type="radio" name=""/>not interested</label>
+      </div>
+      <div>
+      <textarea></textarea>
+      <button id="submit">submit</button>
+    </div>
+    </form>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+    <script src="js/index.js"></script>
+  </body>
 </html>
